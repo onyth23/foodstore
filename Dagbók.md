@@ -11,3 +11,4 @@ Armann gerði github og linkaði saman. <br />
 Ármann tími 1 : Bara finna hugmyndir fyrir PoS system, byrjaði að hanna c# login glugga. <br />
 Ármann tími 2 : Helt áfram með C# login setup.<br />
 Gylfi: Byrjaði að hanna gagnagrunn og setja inn í hann.<br />
+Hávar tími1 :  Gerði basic mynd af ERD mapping fyrir database. Reyndi að finna útúr því hvernig er best að setja Windows serverinn upp. Virtual Box hljómar best en þarf WindowsServer2012 ISO file til að setja það upp á VB<br />
