@@ -93,7 +93,7 @@ namespace FoodStore_PoS_v1
         private void ButtonPinSign_Click(object sender, EventArgs e)
         {
             LoginWindowPasswordDisplay.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

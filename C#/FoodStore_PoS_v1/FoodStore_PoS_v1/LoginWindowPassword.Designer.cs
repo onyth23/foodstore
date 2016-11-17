@@ -60,6 +60,7 @@
             this.ButtonPinSign.TabIndex = 35;
             this.ButtonPinSign.Text = "Sign In";
             this.ButtonPinSign.UseVisualStyleBackColor = false;
+            this.ButtonPinSign.Click += new System.EventHandler(this.ButtonPinSign_Click);
             // 
             // ButtonPinTimeClock
             // 
@@ -82,6 +83,7 @@
             this.ButtonPinClear.TabIndex = 33;
             this.ButtonPinClear.Text = "Clear";
             this.ButtonPinClear.UseVisualStyleBackColor = false;
+            this.ButtonPinClear.Click += new System.EventHandler(this.ButtonPinClear_Click);
             // 
             // button12
             // 
@@ -99,6 +101,7 @@
             this.ButtonPin0.TabIndex = 31;
             this.ButtonPin0.Text = "0";
             this.ButtonPin0.UseVisualStyleBackColor = true;
+            this.ButtonPin0.Click += new System.EventHandler(this.ButtonPin0_Click);
             // 
             // button10
             // 
@@ -116,6 +119,7 @@
             this.ButtonPin9.TabIndex = 29;
             this.ButtonPin9.Text = "9";
             this.ButtonPin9.UseVisualStyleBackColor = true;
+            this.ButtonPin9.Click += new System.EventHandler(this.ButtonPin9_Click);
             // 
             // ButtonPin8
             // 
@@ -125,6 +129,7 @@
             this.ButtonPin8.TabIndex = 28;
             this.ButtonPin8.Text = "8";
             this.ButtonPin8.UseVisualStyleBackColor = true;
+            this.ButtonPin8.Click += new System.EventHandler(this.ButtonPin8_Click);
             // 
             // ButtonPin7
             // 
@@ -134,6 +139,7 @@
             this.ButtonPin7.TabIndex = 27;
             this.ButtonPin7.Text = "7";
             this.ButtonPin7.UseVisualStyleBackColor = true;
+            this.ButtonPin7.Click += new System.EventHandler(this.ButtonPin7_Click);
             // 
             // ButtonPin6
             // 
@@ -143,6 +149,7 @@
             this.ButtonPin6.TabIndex = 26;
             this.ButtonPin6.Text = "6";
             this.ButtonPin6.UseVisualStyleBackColor = true;
+            this.ButtonPin6.Click += new System.EventHandler(this.ButtonPin6_Click);
             // 
             // ButtonPin5
             // 
@@ -152,6 +159,7 @@
             this.ButtonPin5.TabIndex = 25;
             this.ButtonPin5.Text = "5";
             this.ButtonPin5.UseVisualStyleBackColor = true;
+            this.ButtonPin5.Click += new System.EventHandler(this.ButtonPin5_Click);
             // 
             // ButtonPin4
             // 
@@ -161,6 +169,7 @@
             this.ButtonPin4.TabIndex = 24;
             this.ButtonPin4.Text = "4";
             this.ButtonPin4.UseVisualStyleBackColor = true;
+            this.ButtonPin4.Click += new System.EventHandler(this.ButtonPin4_Click);
             // 
             // ButtonPin3
             // 
@@ -170,6 +179,7 @@
             this.ButtonPin3.TabIndex = 23;
             this.ButtonPin3.Text = "3";
             this.ButtonPin3.UseVisualStyleBackColor = true;
+            this.ButtonPin3.Click += new System.EventHandler(this.ButtonPin3_Click);
             // 
             // ButtonPin2
             // 
@@ -179,6 +189,7 @@
             this.ButtonPin2.TabIndex = 22;
             this.ButtonPin2.Text = "2";
             this.ButtonPin2.UseVisualStyleBackColor = true;
+            this.ButtonPin2.Click += new System.EventHandler(this.ButtonPin2_Click);
             // 
             // ButtonPin1
             // 
@@ -188,6 +199,7 @@
             this.ButtonPin1.TabIndex = 21;
             this.ButtonPin1.Text = "1";
             this.ButtonPin1.UseVisualStyleBackColor = true;
+            this.ButtonPin1.Click += new System.EventHandler(this.ButtonPin1_Click);
             // 
             // TextBoxLoginWindowPin
             // 
@@ -222,9 +234,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 161);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
+            this.label3.Size = new System.Drawing.Size(98, 13);
             this.label3.TabIndex = 36;
-            this.label3.Text = "ID input window :";
+            this.label3.Text = "Password window :";
             // 
             // LoginWindowPassword
             // 
