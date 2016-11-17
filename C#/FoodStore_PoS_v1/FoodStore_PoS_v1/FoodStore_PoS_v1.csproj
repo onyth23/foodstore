@@ -50,10 +50,38 @@
     <Compile Include="LoginWindow.Designer.cs">
       <DependentUpon>LoginWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginWindowPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginWindowPassword.Designer.cs">
+      <DependentUpon>LoginWindowPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Method.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValmyndKassastarfsmadur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValmyndKassastarfsmadur.Designer.cs">
+      <DependentUpon>ValmyndKassastarfsmadur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValmyndLagerstarfsmadur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValmyndLagerstarfsmadur.Designer.cs">
+      <DependentUpon>ValmyndLagerstarfsmadur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValmyndVerslunarstjori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValmyndVerslunarstjori.Designer.cs">
+      <DependentUpon>ValmyndVerslunarstjori.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LoginWindow.resx">
       <DependentUpon>LoginWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginWindowPassword.resx">
+      <DependentUpon>LoginWindowPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

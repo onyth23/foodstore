@@ -9,3 +9,4 @@ Armann gerði github og linkaði saman. <br />
 
 #Dagur 2:
 Ármann tími 1 : Bara finna hugmyndir fyrir PoS system, byrjaði að hanna c# login glugga. 
+Ármann tími 2 : Helt áfram með C# login setup.
