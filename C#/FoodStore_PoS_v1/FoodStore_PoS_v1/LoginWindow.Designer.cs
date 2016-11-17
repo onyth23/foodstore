@@ -32,21 +32,21 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TextBoxLoginWindowPin = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.ButtonPin1 = new System.Windows.Forms.Button();
+            this.ButtonPin2 = new System.Windows.Forms.Button();
+            this.ButtonPin3 = new System.Windows.Forms.Button();
+            this.ButtonPin4 = new System.Windows.Forms.Button();
+            this.ButtonPin5 = new System.Windows.Forms.Button();
+            this.ButtonPin6 = new System.Windows.Forms.Button();
+            this.ButtonPin7 = new System.Windows.Forms.Button();
+            this.ButtonPin8 = new System.Windows.Forms.Button();
+            this.ButtonPin9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.ButtonPin0 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.ButtonPinClear = new System.Windows.Forms.Button();
+            this.ButtonPinTimeClock = new System.Windows.Forms.Button();
+            this.ButtonPinSign = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,86 +79,86 @@
             this.TextBoxLoginWindowPin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TextBoxLoginWindowPin.UseSystemPasswordChar = true;
             // 
-            // button1
+            // ButtonPin1
             // 
-            this.button1.Location = new System.Drawing.Point(43, 219);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 69);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ButtonPin1.Location = new System.Drawing.Point(43, 219);
+            this.ButtonPin1.Name = "ButtonPin1";
+            this.ButtonPin1.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin1.TabIndex = 3;
+            this.ButtonPin1.Text = "1";
+            this.ButtonPin1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // ButtonPin2
             // 
-            this.button2.Location = new System.Drawing.Point(119, 219);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(69, 69);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.ButtonPin2.Location = new System.Drawing.Point(119, 219);
+            this.ButtonPin2.Name = "ButtonPin2";
+            this.ButtonPin2.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin2.TabIndex = 4;
+            this.ButtonPin2.Text = "2";
+            this.ButtonPin2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // ButtonPin3
             // 
-            this.button3.Location = new System.Drawing.Point(195, 219);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(69, 69);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.ButtonPin3.Location = new System.Drawing.Point(195, 219);
+            this.ButtonPin3.Name = "ButtonPin3";
+            this.ButtonPin3.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin3.TabIndex = 5;
+            this.ButtonPin3.Text = "3";
+            this.ButtonPin3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // ButtonPin4
             // 
-            this.button4.Location = new System.Drawing.Point(43, 295);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(69, 69);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.ButtonPin4.Location = new System.Drawing.Point(43, 295);
+            this.ButtonPin4.Name = "ButtonPin4";
+            this.ButtonPin4.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin4.TabIndex = 6;
+            this.ButtonPin4.Text = "4";
+            this.ButtonPin4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // ButtonPin5
             // 
-            this.button5.Location = new System.Drawing.Point(119, 295);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(69, 69);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.ButtonPin5.Location = new System.Drawing.Point(119, 295);
+            this.ButtonPin5.Name = "ButtonPin5";
+            this.ButtonPin5.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin5.TabIndex = 7;
+            this.ButtonPin5.Text = "5";
+            this.ButtonPin5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // ButtonPin6
             // 
-            this.button6.Location = new System.Drawing.Point(195, 295);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(69, 69);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.ButtonPin6.Location = new System.Drawing.Point(195, 295);
+            this.ButtonPin6.Name = "ButtonPin6";
+            this.ButtonPin6.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin6.TabIndex = 8;
+            this.ButtonPin6.Text = "6";
+            this.ButtonPin6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // ButtonPin7
             // 
-            this.button7.Location = new System.Drawing.Point(43, 371);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(69, 69);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.ButtonPin7.Location = new System.Drawing.Point(43, 371);
+            this.ButtonPin7.Name = "ButtonPin7";
+            this.ButtonPin7.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin7.TabIndex = 9;
+            this.ButtonPin7.Text = "7";
+            this.ButtonPin7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // ButtonPin8
             // 
-            this.button8.Location = new System.Drawing.Point(119, 371);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(69, 69);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.ButtonPin8.Location = new System.Drawing.Point(119, 371);
+            this.ButtonPin8.Name = "ButtonPin8";
+            this.ButtonPin8.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin8.TabIndex = 10;
+            this.ButtonPin8.Text = "8";
+            this.ButtonPin8.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // ButtonPin9
             // 
-            this.button9.Location = new System.Drawing.Point(195, 371);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(69, 69);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.ButtonPin9.Location = new System.Drawing.Point(195, 371);
+            this.ButtonPin9.Name = "ButtonPin9";
+            this.ButtonPin9.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin9.TabIndex = 11;
+            this.ButtonPin9.Text = "9";
+            this.ButtonPin9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
@@ -168,14 +168,14 @@
             this.button10.TabIndex = 12;
             this.button10.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // ButtonPin0
             // 
-            this.button11.Location = new System.Drawing.Point(119, 446);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(69, 69);
-            this.button11.TabIndex = 13;
-            this.button11.Text = "0";
-            this.button11.UseVisualStyleBackColor = true;
+            this.ButtonPin0.Location = new System.Drawing.Point(119, 446);
+            this.ButtonPin0.Name = "ButtonPin0";
+            this.ButtonPin0.Size = new System.Drawing.Size(69, 69);
+            this.ButtonPin0.TabIndex = 13;
+            this.ButtonPin0.Text = "0";
+            this.ButtonPin0.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
@@ -183,56 +183,61 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(69, 69);
             this.button12.TabIndex = 14;
-            this.button12.Text = "Til baka";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // ButtonPinClear
             // 
-            this.button13.Location = new System.Drawing.Point(271, 219);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(107, 69);
-            this.button13.TabIndex = 15;
-            this.button13.Text = "Clear";
-            this.button13.UseVisualStyleBackColor = true;
+            this.ButtonPinClear.BackColor = System.Drawing.Color.Red;
+            this.ButtonPinClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonPinClear.Location = new System.Drawing.Point(271, 219);
+            this.ButtonPinClear.Name = "ButtonPinClear";
+            this.ButtonPinClear.Size = new System.Drawing.Size(107, 69);
+            this.ButtonPinClear.TabIndex = 15;
+            this.ButtonPinClear.Text = "Clear";
+            this.ButtonPinClear.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // ButtonPinTimeClock
             // 
-            this.button14.Location = new System.Drawing.Point(271, 295);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(107, 69);
-            this.button14.TabIndex = 16;
-            this.button14.Text = "Time Clock";
-            this.button14.UseVisualStyleBackColor = true;
+            this.ButtonPinTimeClock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ButtonPinTimeClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonPinTimeClock.Location = new System.Drawing.Point(271, 295);
+            this.ButtonPinTimeClock.Name = "ButtonPinTimeClock";
+            this.ButtonPinTimeClock.Size = new System.Drawing.Size(107, 69);
+            this.ButtonPinTimeClock.TabIndex = 16;
+            this.ButtonPinTimeClock.Text = "Time Clock";
+            this.ButtonPinTimeClock.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // ButtonPinSign
             // 
-            this.button15.Location = new System.Drawing.Point(271, 371);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(107, 144);
-            this.button15.TabIndex = 17;
-            this.button15.Text = "Sign In";
-            this.button15.UseVisualStyleBackColor = true;
+            this.ButtonPinSign.BackColor = System.Drawing.Color.Lime;
+            this.ButtonPinSign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonPinSign.Location = new System.Drawing.Point(271, 371);
+            this.ButtonPinSign.Name = "ButtonPinSign";
+            this.ButtonPinSign.Size = new System.Drawing.Size(107, 144);
+            this.ButtonPinSign.TabIndex = 17;
+            this.ButtonPinSign.Text = "Sign In";
+            this.ButtonPinSign.UseVisualStyleBackColor = false;
             // 
             // LoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(420, 555);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.ButtonPinSign);
+            this.Controls.Add(this.ButtonPinTimeClock);
+            this.Controls.Add(this.ButtonPinClear);
             this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.ButtonPin0);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ButtonPin9);
+            this.Controls.Add(this.ButtonPin8);
+            this.Controls.Add(this.ButtonPin7);
+            this.Controls.Add(this.ButtonPin6);
+            this.Controls.Add(this.ButtonPin5);
+            this.Controls.Add(this.ButtonPin4);
+            this.Controls.Add(this.ButtonPin3);
+            this.Controls.Add(this.ButtonPin2);
+            this.Controls.Add(this.ButtonPin1);
             this.Controls.Add(this.TextBoxLoginWindowPin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -250,21 +255,21 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TextBoxLoginWindowPin;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button ButtonPin1;
+        private System.Windows.Forms.Button ButtonPin2;
+        private System.Windows.Forms.Button ButtonPin3;
+        private System.Windows.Forms.Button ButtonPin4;
+        private System.Windows.Forms.Button ButtonPin5;
+        private System.Windows.Forms.Button ButtonPin6;
+        private System.Windows.Forms.Button ButtonPin7;
+        private System.Windows.Forms.Button ButtonPin8;
+        private System.Windows.Forms.Button ButtonPin9;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button ButtonPin0;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button ButtonPinClear;
+        private System.Windows.Forms.Button ButtonPinTimeClock;
+        private System.Windows.Forms.Button ButtonPinSign;
     }
 }
 
