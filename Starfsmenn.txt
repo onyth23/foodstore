@@ -1,0 +1,26 @@
+
+ID
+Kennitala
+
+name
+
+password
+PIN
+
+jobtitle
+Starfsheiti
+
+1310903079
+Gylfi Þór Helgason
+1234
+Lager
+
+1903902929
+Ármann Hallbert Jónsson
+1234
+Verslunarstjóri
+
+206952429
+Hávar Sigurðarson
+1324
+Kassastarfsmaður
