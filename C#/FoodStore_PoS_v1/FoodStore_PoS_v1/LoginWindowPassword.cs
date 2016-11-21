@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FoodStore_PoS_v1
 {
-    public partial class LoginWindowPassword : LoginWindow
+    public partial class LoginWindowPassword : Form
     {
         public LoginWindowPassword()
         {
@@ -24,7 +24,7 @@ namespace FoodStore_PoS_v1
 
         private void LoginWindowPassword_Load(object sender, EventArgs e)
         {
-            LoginWindow.
+
         }
 
         private void ButtonPin1_Click(object sender, EventArgs e)
@@ -84,7 +84,7 @@ namespace FoodStore_PoS_v1
 
         public void ButtonPinSign_Click(object sender, EventArgs e)
         {
-            
+           
         }
     }
 }
