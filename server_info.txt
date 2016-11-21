@@ -1,6 +1,8 @@
-SERVER
-win2a-32
+SERVER		HOSTS
+win2a-32	win2a-82	
+		win2a-83
 
-HOSTS
-win2a-82
-win2a-83
+
+
+server IP: 192.168.1.1/24
+

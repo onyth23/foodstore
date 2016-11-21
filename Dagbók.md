@@ -15,3 +15,4 @@ Hávar tími1 :  Gerði basic mynd af ERD mapping fyrir database. Reyndi að fin
 
 #21.11.16:
 Ármann tími 1 : Vinna í c#. 
+Hávar Tími 1: Setti upp windows serverinn
