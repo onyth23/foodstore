@@ -92,8 +92,31 @@ namespace FoodStore_PoS_v1
 
         private void ButtonPinSign_Click(object sender, EventArgs e)
         {
-            LoginWindowPasswordDisplay.Show();
-            this.Close();
+            string ID = TextBoxLoginWindowPin.Text;
+
+            try
+            {
+                method.TengingVidGagnagrunn();
+                string rett_ID = method.FindID(ID);
+
+                if (ID == rett_ID)
+                {
+                    LoginWindowPasswordDisplay.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Þessi aðgangur er ekki skráður hjá okkur.");
+                  
+                }
+            
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString()); // Getur upplýsingar um error í MsgBox
+
+                
+            }
         }
     }
 }

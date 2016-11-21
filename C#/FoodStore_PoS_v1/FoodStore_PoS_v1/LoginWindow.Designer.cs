@@ -234,9 +234,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 155);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 13);
+            this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 18;
-            this.label3.Text = "Password input : ";
+            this.label3.Text = "ID input : ";
             // 
             // LoginWindow
             // 

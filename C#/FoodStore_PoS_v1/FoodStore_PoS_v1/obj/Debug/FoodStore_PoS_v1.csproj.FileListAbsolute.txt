@@ -8,3 +8,13 @@ C:\Users\1903902929\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore
 C:\Users\1903902929\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.exe
 C:\Users\1903902929\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.pdb
 C:\Users\1903902929\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.LoginWindowPassword.resources
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\bin\Debug\FoodStore_PoS_v1.exe.config
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.exe
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.pdb
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\bin\Debug\FoodStore_PoS_v1.exe
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\bin\Debug\FoodStore_PoS_v1.pdb
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.csprojResolveAssemblyReference.cache
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.LoginWindow.resources
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.LoginWindowPassword.resources
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.Properties.Resources.resources
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.csproj.GenerateResource.Cache
