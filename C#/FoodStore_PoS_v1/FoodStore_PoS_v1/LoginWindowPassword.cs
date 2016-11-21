@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FoodStore_PoS_v1
 {
-    public partial class LoginWindowPassword : Form
+    public partial class LoginWindowPassword : LoginWindow
     {
         public LoginWindowPassword()
         {
@@ -20,10 +20,11 @@ namespace FoodStore_PoS_v1
         ValmyndKassastarfsmadur ValmyndKassastarfsmadurDisplay = new ValmyndKassastarfsmadur();
         ValmyndLagerstarfsmadur ValmyndLagerstarfsmadurDisplay = new ValmyndLagerstarfsmadur();
         ValmyndVerslunarstjori ValmyndverslunarstjoriDisplay = new ValmyndVerslunarstjori();
+        LoginWindow LoginWindows = new LoginWindow();
 
         private void LoginWindowPassword_Load(object sender, EventArgs e)
         {
-
+            LoginWindow.
         }
 
         private void ButtonPin1_Click(object sender, EventArgs e)
@@ -81,9 +82,9 @@ namespace FoodStore_PoS_v1
             TextBoxLoginWindowPin.Clear();
         }
 
-        private void ButtonPinSign_Click(object sender, EventArgs e)
+        public void ButtonPinSign_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

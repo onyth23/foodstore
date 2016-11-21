@@ -128,9 +128,13 @@ namespace FoodStore_PoS_v1
         // Notað fyrir LoginWindowPassword.cs glugga til passa 
         //---------------------------------------------------------------------------------------------------------------------
 
-        public string FindPin(string PIN)
+        public string FindPIN(string Password)
         {
+            string[] gogn = new string[1];
+            if (OpenConnection() == true)
+            {
 
+            }
         }
 
     }

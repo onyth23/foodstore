@@ -29,10 +29,11 @@ namespace FoodStore_PoS_v1
         // Class 
         Method method = new Method();
         LoginWindowPassword LoginWindowPasswordDisplay = new LoginWindowPassword();
+        
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void ButtonPin1_Click(object sender, EventArgs e)
@@ -89,8 +90,8 @@ namespace FoodStore_PoS_v1
         {
             TextBoxLoginWindowPin.Clear();
         }
-
-        private void ButtonPinSign_Click(object sender, EventArgs e)
+        
+        public void ButtonPinSign_Click(object sender, EventArgs e)
         {
             string ID = TextBoxLoginWindowPin.Text;
 
@@ -114,9 +115,10 @@ namespace FoodStore_PoS_v1
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString()); // Getur upplýsingar um error í MsgBox
-
-                
-            }
+            }  
         }
+        
+        
+        
     }
 }
