@@ -28,3 +28,6 @@ H:\Foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.Log
 H:\Foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.LoginWindowPassword.resources
 H:\Foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.Properties.Resources.resources
 H:\Foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.csproj.GenerateResource.Cache
+C:\Users\TEMP.2T\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\bin\Debug\FoodStore_PoS_v1.exe.config
+C:\Users\TEMP.2T\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.exe
+C:\Users\TEMP.2T\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.pdb

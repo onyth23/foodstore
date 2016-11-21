@@ -16,6 +16,7 @@ Hávar tími1 :  Gerði basic mynd af ERD mapping fyrir database. Reyndi að fin
 #21.11.16:
 Ármann tími 1 : Vinna í c#. <br />
 Ármann tími 2 : rústaði c#, ætla að breyta setup. <br />
+Ármann tími 3 : lagaði c#, kláraði login glugga. <br />
 Hávar Tími 1: Setti upp windows serverinn<br />
 Gylfi tími 1: Kláraði að setja inn vörur fyrir database<br />
 Gylfi tími 2: Byrjaði að sækja myndir af vörum fyrir c#<br />
