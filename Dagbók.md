@@ -18,3 +18,4 @@ Hávar tími1 :  Gerði basic mynd af ERD mapping fyrir database. Reyndi að fin
 Ármann tími 2 : rústaði c#, ætla að breyta setup. 
 Hávar Tími 1: Setti upp windows serverinn
 Gylfi tími 1: Kláraði að setja inn vörur fyrir database
+Gylfi tími 2: Byrjaði að sækja myndir af vörum fyrir c#
