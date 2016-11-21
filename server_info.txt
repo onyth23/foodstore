@@ -1,0 +1,6 @@
+SERVER
+win2a-32
+
+HOSTS
+win2a-82
+win2a-83
