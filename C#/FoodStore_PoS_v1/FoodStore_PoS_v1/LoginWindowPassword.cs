@@ -12,15 +12,18 @@ namespace FoodStore_PoS_v1
 {
     public partial class LoginWindowPassword : Form
     {
-        public LoginWindowPassword()
+        private string  leyni = null;
+        public LoginWindowPassword(string passi)
         {
             InitializeComponent();
+            leyni = passi;
         }
 
         ValmyndKassastarfsmadur ValmyndKassastarfsmadurDisplay = new ValmyndKassastarfsmadur();
         ValmyndLagerstarfsmadur ValmyndLagerstarfsmadurDisplay = new ValmyndLagerstarfsmadur();
         ValmyndVerslunarstjori ValmyndverslunarstjoriDisplay = new ValmyndVerslunarstjori();
         LoginWindow LoginWindows = new LoginWindow();
+        Method method = new Method();
 
         private void LoginWindowPassword_Load(object sender, EventArgs e)
         {
@@ -84,7 +87,49 @@ namespace FoodStore_PoS_v1
 
         public void ButtonPinSign_Click(object sender, EventArgs e)
         {
-           
+
+            string Id = leyni;
+            string password = TextBoxLoginWindowPin.Text;
+            
+            try
+            {
+                method.TengingVidGagnagrunn();
+                string RettID = method.FindID(Id);
+                string RettPassword = method.FindPIN(Id);
+                string JobTitle = method.FindJobTitle(Id);
+
+                if (Id == RettID && password == RettPassword)
+                {
+                    if (JobTitle == "Verslunarstjóri")
+                    {
+                        ValmyndverslunarstjoriDisplay.Show();
+                        this.Hide();
+                    }
+                    else if (JobTitle == "Lager")
+                    {
+                        ValmyndLagerstarfsmadurDisplay.Show();
+                        this.Hide();
+                    }
+                    else if (JobTitle == "Kassastarfsmaður")
+                    {
+                        ValmyndKassastarfsmadurDisplay.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Það komm upp villa, finnum ekki starfsheiti þitt.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Þetta password passar ekki við þennan aðgangð.");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString()); // Getur upplýsingar um error í MsgBox
+            }  
         }
     }
 }

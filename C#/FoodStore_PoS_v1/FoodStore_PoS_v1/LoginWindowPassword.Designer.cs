@@ -205,9 +205,11 @@
             // 
             this.TextBoxLoginWindowPin.Location = new System.Drawing.Point(16, 177);
             this.TextBoxLoginWindowPin.Name = "TextBoxLoginWindowPin";
+            this.TextBoxLoginWindowPin.PasswordChar = '*';
             this.TextBoxLoginWindowPin.Size = new System.Drawing.Size(221, 20);
             this.TextBoxLoginWindowPin.TabIndex = 20;
             this.TextBoxLoginWindowPin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxLoginWindowPin.UseSystemPasswordChar = true;
             // 
             // label2
             // 

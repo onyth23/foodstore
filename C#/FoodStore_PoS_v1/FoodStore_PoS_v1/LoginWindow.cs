@@ -28,7 +28,7 @@ namespace FoodStore_PoS_v1
 
         // Class 
         Method method = new Method();
-        LoginWindowPassword LoginWindowPasswordDisplay = new LoginWindowPassword();
+       
         
 
         private void Login_Load(object sender, EventArgs e)
@@ -94,7 +94,7 @@ namespace FoodStore_PoS_v1
         public void ButtonPinSign_Click(object sender, EventArgs e)
         {
             string ID = TextBoxLoginWindowPin.Text;
-
+            LoginWindowPassword LoginWindowPasswordDisplay = new LoginWindowPassword(ID);
             try
             {
                 method.TengingVidGagnagrunn();

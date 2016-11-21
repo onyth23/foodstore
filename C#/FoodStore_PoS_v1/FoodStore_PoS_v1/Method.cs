@@ -103,7 +103,7 @@ namespace FoodStore_PoS_v1
 
         public string FindID(string ID)
         {
-            string[] gogn = new string[1];
+            string[] gogn = new string[4];
             if (OpenConnection() == true)
             {
                 fyrirspurn = "SELECT ID FROM employee where ID='" + ID + "'";
@@ -128,7 +128,57 @@ namespace FoodStore_PoS_v1
         // Notað fyrir LoginWindowPassword.cs glugga til passa 
         //---------------------------------------------------------------------------------------------------------------------
 
-        
+        public string FindPIN(string ID)
+        {
+            string[] gogn = new string[1];
+            if (OpenConnection() == true)
+            {
+                fyrirspurn = "SELECT password FROM employee where ID='" + ID + "'";
 
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                sqllesari = nySQLskipun.ExecuteReader();
+                while (sqllesari.Read())
+                {
+                    gogn[0] = sqllesari.GetValue(0).ToString();
+                }
+                sqllesari.Close();
+                CloseConnection();
+            }
+            return gogn[0];
+        }
+
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method FindPIN endar 
+        //---------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method Find JobTitle byrjar, næ í jobtitle starfsmann í sql
+        //---------------------------------------------------------------------------------------------------------------------
+
+        public string FindJobTitle(string ID)
+        {
+            string[] gogn = new string[1];
+            if (OpenConnection() == true)
+            {
+                fyrirspurn = "SELECT jobtitle FROM employee where ID='" + ID + "'";
+
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                sqllesari = nySQLskipun.ExecuteReader();
+                while (sqllesari.Read())
+                {
+                    gogn[0] = sqllesari.GetValue(0).ToString();
+                }
+                sqllesari.Close();
+                CloseConnection();
+            }
+            return gogn[0];
+        }
+
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method FindJobTitle endar 
+        //---------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method FindPin byrjar, finnur PIN í foodstore datebase undir employee.
+        // Notað fyrir LoginWindowPassword.cs glugga til passa 
+        //---------------------------------------------------------------------------------------------------------------------
     }
 }
