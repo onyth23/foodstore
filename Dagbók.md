@@ -14,9 +14,9 @@ Gylfi: Byrjaði að hanna gagnagrunn og setja inn í hann.<br />
 Hávar tími1 :  Gerði basic mynd af ERD mapping fyrir database. Reyndi að finna útúr því hvernig er best að setja Windows serverinn upp. Virtual Box hljómar best en þarf WindowsServer2012 ISO file til að setja það upp á VB<br />
 
 #21.11.16:
-Ármann tími 1 : Vinna í c#. 
-Ármann tími 2 : rústaði c#, ætla að breyta setup. 
-Hávar Tími 1: Setti upp windows serverinn
-Gylfi tími 1: Kláraði að setja inn vörur fyrir database
-Gylfi tími 2: Byrjaði að sækja myndir af vörum fyrir c#
-Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#
+Ármann tími 1 : Vinna í c#. <br />
+Ármann tími 2 : rústaði c#, ætla að breyta setup. <br />
+Hávar Tími 1: Setti upp windows serverinn<br />
+Gylfi tími 1: Kláraði að setja inn vörur fyrir database<br />
+Gylfi tími 2: Byrjaði að sækja myndir af vörum fyrir c#<br />
+Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#<br />
