@@ -21,3 +21,6 @@ Hávar Tími 1: Setti upp windows serverinn<br />
 Gylfi tími 1: Kláraði að setja inn vörur fyrir database<br />
 Gylfi tími 2: Byrjaði að sækja myndir af vörum fyrir c#<br />
 Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#<br />
+
+#22.11.16:
+Ármann tími 1 : Hanna c# lager glugga, bara setup. Gerði enga kóða.<br />
