@@ -83,36 +83,37 @@ namespace FoodStore_PoS_v1
             // --------------------------------------------------------------------------------------------------------------------
             // Method DisplayLagerTypeIDDataGridView er notuð hér til að birta lagertype_id í ValmyndLagerstarfsmadur.cs 
             //---------------------------------------------------------------------------------------------------------------------
-            string[] gognFraSql = new string[2];
             int DataGridViewNumberUp = 0;
             int IDCounter = 0;
-            
+            for (int i = 0; i < 450; i++)
+            {
+                string[] gognFraSql = new string[2];
                 try
                 {
                     gognFraSql = method.DisplayLagerTypeIDGridView(IDCounter);
 
-                    foreach (string value in gognFraSql)
-	                {
-		                string id = gognFraSql[0];
-                        string name = gognFraSql[1];
-                        if (string.IsNullOrEmpty(id))
-                        {
+                    string id = gognFraSql[0];
+                    string name = gognFraSql[1];
+                    if (string.IsNullOrEmpty(id))
+                    {
 
-                        }
-                        else
-                        {
-                            dataGridViewLagertypeIDDisplay.Rows.Add();
-                            dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[0].Value = id;
-                            dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[1].Value = name;
-                            DataGridViewNumberUp++;
-	                    }
-                        IDCounter++;
                     }
-                }  
+                    else
+                    {
+                        dataGridViewLagertypeIDDisplay.Rows.Add();
+                        dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[0].Value = id;
+                        dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[1].Value = name;
+                        DataGridViewNumberUp++;
+                    }
+
+
+                }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
-                }       
+                }
+                IDCounter++;
+            }  
         }
 
 
