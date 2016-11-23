@@ -33,4 +33,5 @@ Gylfi tími 2: Las mig til um github branch kerfið.<br />
 Ármann tími 3 : Vinna í c# lagerwindow<br />
 Ármann tími 4 : Tími að gera windows server allir saman<br />
 Gylfi tími 3: Kláraði að gera tímastimpilinn í database og fórum yfir windowserverinn<br />
+Hávar tími 1: Server er upp and running, host vél er tengd við server, allir groups og users komnir líka<br />
 
