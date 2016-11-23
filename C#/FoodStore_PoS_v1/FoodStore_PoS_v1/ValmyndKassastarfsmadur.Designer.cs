@@ -28,9 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            
+            this.SuspendLayout();
+            // 
+            // ValmyndKassastarfsmadur
+            // 
+            this.ClientSize = new System.Drawing.Size(1084, 744);
+            this.Name = "ValmyndKassastarfsmadur";
             this.Text = "ValmyndKassastarfsmadur";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

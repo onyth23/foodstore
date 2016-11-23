@@ -27,3 +27,4 @@ Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#<br />
 
 #23.11.16
 Gylfi tími 1: Vann í database, gerði workhours fyrir employees<br />
+Ármann tími 1 : Vinna í c# að gera kóða í lagerstarfsmadur.cs<br />

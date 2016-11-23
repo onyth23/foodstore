@@ -177,8 +177,38 @@ namespace FoodStore_PoS_v1
         // Method FindJobTitle endar 
         //---------------------------------------------------------------------------------------------------------------------
         // --------------------------------------------------------------------------------------------------------------------
-        // Method FindPin byrjar, finnur PIN í foodstore datebase undir employee.
-        // Notað fyrir LoginWindowPassword.cs glugga til passa 
+        // Method DisplayLagerDataGridView 
+        // Nær í lager í database og linkar í datagridview fyrir lagerstarfsmann
         //---------------------------------------------------------------------------------------------------------------------
+        public string[] DisplayLagerDataGridView(int ID)
+        {
+            string[] gogn = new string[5];
+            if (OpenConnection() == true)
+            {
+                fyrirspurn = "SELECT ID, productname, productprice, quantity, lagertype_id from lager where ID='" + ID + "'";
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                sqllesari = nySQLskipun.ExecuteReader();
+                while (sqllesari.Read())
+                {
+                    gogn[0] = sqllesari.GetValue(0).ToString();
+                    gogn[1] = sqllesari.GetValue(1).ToString();
+                    gogn[2] = sqllesari.GetValue(2).ToString();
+                    gogn[3] = sqllesari.GetValue(3).ToString();
+                    gogn[4] = sqllesari.GetValue(4).ToString();
+                }
+                sqllesari.Close();
+                CloseConnection();
+                return gogn;
+            }
+            return gogn;
+        }
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method DisplayLagerDataGridView endar 
+        //---------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method DisplayLagertypeIDGridView 
+        // Nær í lagertype og linkar í datagrid fyrir lagerstarfsmann
+        //---------------------------------------------------------------------------------------------------------------------
+        public string[] DisplayLagerTypeIDGridView()
     }
 }

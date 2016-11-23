@@ -117,12 +117,12 @@ namespace FoodStore_PoS_v1
                     }
                     else
                     {
-                        MessageBox.Show("Það komm upp villa, finnum ekki starfsheiti þitt.");
+                        MessageBox.Show("Það kom upp villa, finnum ekki starfsheiti þitt.");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Þetta password passar ekki við þennan aðgangð.");
+                    MessageBox.Show("Þetta password passar ekki við þennan aðgang.");
                 }
 
             }
