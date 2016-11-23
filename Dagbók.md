@@ -32,4 +32,5 @@ Gylfi tími 2: Las mig til um github branch kerfið.<br />
 Ármann tími 2 : Vinna í c# reyna minnka stressið/load tíma á lagerglugga <br />
 Ármann tími 3 : Vinna í c# lagerwindow<br />
 Ármann tími 4 : Tími að gera windows server allir saman<br />
+Gylfi tími 3: Kláraði að gera tímastimpilinn í database og fórum yfir windowserverinn<br />
 
