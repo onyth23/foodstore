@@ -24,3 +24,6 @@ Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#<br />
 
 #22.11.16:
 Ármann tími 1 : Hanna c# lager glugga, bara setup. Gerði enga kóða.<br />
+
+#23.11.16
+Gylfi tími 1: Vann í database, gerði workhours fyrir employees<br />
