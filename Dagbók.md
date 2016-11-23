@@ -29,4 +29,6 @@ Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#<br />
 Gylfi tími 1: Vann í database, gerði workhours fyrir employees<br />
 Ármann tími 1 : Vinna í c# að gera kóða í lagerstarfsmadur.cs<br />
 Ármann tími 2 : Vinna í c# reyna minnka stressið/load tíma á lagerglugga <br />
+Ármann tími 3 : Vinna í c# lagerwindow<br />
+Ármann tími 4 : Tími að gera windows server allir saman<br />
 Gylfi tími 2: Las mig til um github branch kerfið.<br />
