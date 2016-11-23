@@ -31,7 +31,7 @@ namespace FoodStore_PoS_v1
         {
             method.TengingVidGagnagrunn(); // Tengir við Sql database 
             LagerLoad();
-            
+            LagerTypeIDLoad();
         }
 
         public void LagerLoad()
@@ -77,5 +77,56 @@ namespace FoodStore_PoS_v1
                 IDCounter++;
             }
         }
+
+        public void LagerTypeIDLoad()
+        {
+            // --------------------------------------------------------------------------------------------------------------------
+            // Method DisplayLagerTypeIDDataGridView er notuð hér til að birta lagertype_id í ValmyndLagerstarfsmadur.cs 
+            //---------------------------------------------------------------------------------------------------------------------
+            string[] gognFraSql = new string[2];
+            int DataGridViewNumberUp = 0;
+            int IDCounter = 0;
+            
+                try
+                {
+                    gognFraSql = method.DisplayLagerTypeIDGridView(IDCounter);
+
+                    foreach (string value in gognFraSql)
+	                {
+		                string id = gognFraSql[0];
+                        string name = gognFraSql[1];
+                        if (string.IsNullOrEmpty(id))
+                        {
+
+                        }
+                        else
+                        {
+                            dataGridViewLagertypeIDDisplay.Rows.Add();
+                            dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[0].Value = id;
+                            dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[1].Value = name;
+                            DataGridViewNumberUp++;
+	                    }
+                        IDCounter++;
+                    }
+                }  
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }       
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // --------------------------------------------------------------------------------------------------------------------
+            // Refresh button kallar í báðar lager method, 
+            //---------------------------------------------------------------------------------------------------------------------
+            dataGridViewLagerDisplay.ClearSelection();
+            dataGridViewLagertypeIDDisplay.ClearSelection();
+            LagerLoad();
+            LagerTypeIDLoad();
+        }
     }
 }
+    
+

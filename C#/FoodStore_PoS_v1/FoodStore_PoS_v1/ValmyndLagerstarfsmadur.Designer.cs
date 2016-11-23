@@ -47,14 +47,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.TextBoxLagerLagerTypeID = new System.Windows.Forms.TextBox();
             this.dataGridViewLagertypeIDDisplay = new System.Windows.Forms.DataGridView();
+            this.LagertypeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nafn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DeleteType = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.TextBoxLagerTypeIDLagerTypeID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.TextBoxLagerTypeIDName = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.LagertypeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nafn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DeleteType = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLagerDisplay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLagertypeIDDisplay)).BeginInit();
             this.SuspendLayout();
@@ -210,6 +210,21 @@
             this.dataGridViewLagertypeIDDisplay.Size = new System.Drawing.Size(359, 608);
             this.dataGridViewLagertypeIDDisplay.TabIndex = 12;
             // 
+            // LagertypeID
+            // 
+            this.LagertypeID.HeaderText = "LagertypeID";
+            this.LagertypeID.Name = "LagertypeID";
+            // 
+            // Nafn
+            // 
+            this.Nafn.HeaderText = "Nafn";
+            this.Nafn.Name = "Nafn";
+            // 
+            // DeleteType
+            // 
+            this.DeleteType.HeaderText = "DeleteType";
+            this.DeleteType.Name = "DeleteType";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -251,21 +266,7 @@
             this.button1.TabIndex = 17;
             this.button1.Text = "Refresh glugga";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // LagertypeID
-            // 
-            this.LagertypeID.HeaderText = "LagertypeID";
-            this.LagertypeID.Name = "LagertypeID";
-            // 
-            // Nafn
-            // 
-            this.Nafn.HeaderText = "Nafn";
-            this.Nafn.Name = "Nafn";
-            // 
-            // DeleteType
-            // 
-            this.DeleteType.HeaderText = "DeleteType";
-            this.DeleteType.Name = "DeleteType";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ValmyndLagerstarfsmadur
             // 

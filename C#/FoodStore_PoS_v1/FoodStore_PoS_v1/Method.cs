@@ -209,6 +209,27 @@ namespace FoodStore_PoS_v1
         // Method DisplayLagertypeIDGridView 
         // Nær í lagertype og linkar í datagrid fyrir lagerstarfsmann
         //---------------------------------------------------------------------------------------------------------------------
-        public string[] DisplayLagerTypeIDGridView()
+        public string[] DisplayLagerTypeIDGridView(int ID)
+        {
+            string[] gogn = new string[2];
+            if (OpenConnection() == true)
+            {
+                fyrirspurn = "SELECT ID, Name from lagertype where ID='" + ID + "'"; 
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                sqllesari = nySQLskipun.ExecuteReader();
+                while (sqllesari.Read())
+                {
+                    gogn[0] = sqllesari.GetValue(0).ToString();
+                    gogn[1] = sqllesari.GetValue(1).ToString();
+                }
+                sqllesari.Close();
+                CloseConnection();
+                return gogn;
+            }
+            return gogn;
+        }
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method DisplayLagerTypeIDDataGridView endar 
+        //---------------------------------------------------------------------------------------------------------------------
     }
 }
