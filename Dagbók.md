@@ -36,5 +36,6 @@ Gylfi tími 3: Kláraði að gera tímastimpilinn í database og fórum yfir win
 Hávar tími 1: Server er upp and running, host vél er tengd við server, allir groups og users komnir líka<br />
 
 #24.11.16
-Ármann tími 1 : Reyna finna hverni kassagluggi mun líta út.
-Hávar tími 1: Fiktaði eitthvað við windows serverinn, fínpússa notendahópa
+Ármann tími 1 : Reyna finna hverni kassagluggi mun líta út.<br />
+Hávar tími 1: Fiktaði eitthvað við windows serverinn, fínpússa notendahópa<br />
+Gylfi tími 2: Gatheraði information um Windows serverinn fyrir framtíðar erfiðleika.<br />
