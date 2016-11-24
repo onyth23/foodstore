@@ -35,3 +35,5 @@ Gylfi tími 2: Las mig til um github branch kerfið.<br />
 Gylfi tími 3: Kláraði að gera tímastimpilinn í database og fórum yfir windowserverinn<br />
 Hávar tími 1: Server er upp and running, host vél er tengd við server, allir groups og users komnir líka<br />
 
+#24.11.16
+Ármann tími 1 : Reyna finna hverni kassagluggi mun líta út.
