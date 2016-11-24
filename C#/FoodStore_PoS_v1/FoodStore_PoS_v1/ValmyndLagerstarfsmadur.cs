@@ -32,6 +32,8 @@ namespace FoodStore_PoS_v1
             method.TengingVidGagnagrunn(); // Tengir við Sql database 
             LagerLoad();
             LagerTypeIDLoad();
+
+            
         }
 
         public void LagerLoad()
@@ -83,48 +85,114 @@ namespace FoodStore_PoS_v1
             // --------------------------------------------------------------------------------------------------------------------
             // Method DisplayLagerTypeIDDataGridView er notuð hér til að birta lagertype_id í ValmyndLagerstarfsmadur.cs 
             //---------------------------------------------------------------------------------------------------------------------
-            string[] gognFraSql = new string[2];
             int DataGridViewNumberUp = 0;
             int IDCounter = 0;
-            
+            for (int i = 0; i < 500; i++)
+            {
+                string[] gognFraSql = new string[2];
                 try
                 {
                     gognFraSql = method.DisplayLagerTypeIDGridView(IDCounter);
 
-                    foreach (string value in gognFraSql)
-	                {
-		                string id = gognFraSql[0];
-                        string name = gognFraSql[1];
-                        if (string.IsNullOrEmpty(id))
-                        {
+                    string id = gognFraSql[0];
+                    string name = gognFraSql[1];
+                    if (string.IsNullOrEmpty(id))
+                    {
 
-                        }
-                        else
-                        {
-                            dataGridViewLagertypeIDDisplay.Rows.Add();
-                            dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[0].Value = id;
-                            dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[1].Value = name;
-                            DataGridViewNumberUp++;
-	                    }
-                        IDCounter++;
                     }
-                }  
+                    else
+                    {
+                        dataGridViewLagertypeIDDisplay.Rows.Add();
+                        dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[0].Value = id;
+                        dataGridViewLagertypeIDDisplay.Rows[DataGridViewNumberUp].Cells[1].Value = name;
+                        DataGridViewNumberUp++;
+                    }
+
+
+                }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
-                }       
+                }
+                IDCounter++;
+            }  
         }
 
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             // --------------------------------------------------------------------------------------------------------------------
             // Refresh button kallar í báðar lager method, 
-            //---------------------------------------------------------------------------------------------------------------------
+            // ---------------------------------------------------------------------------------------------------------------------
             dataGridViewLagerDisplay.ClearSelection();
             dataGridViewLagertypeIDDisplay.ClearSelection();
             LagerLoad();
             LagerTypeIDLoad();
+
+        }
+
+        // --------------------------------------------------------------------------------------------------------------------
+        // Button setja nýjar vörur í lager. 
+        // Setur vörur inn með input frá textbox í ValmyndLagerstarfsmadur
+        // Notar method SetjaNyjaVorurLager í method.cs
+        // ---------------------------------------------------------------------------------------------------------------------
+        private void ButtonSetjaNyjaVoruLager_Click(object sender, EventArgs e)
+        {
+            string ProductName = TextBoxLagerProductName.Text;
+            int ProductPrice = Convert.ToInt32(TextBoxLagerProductPrice.Text);
+            int Quantity = Convert.ToInt32(TextBoxLagerQuantity.Text);
+            int LagerTypeID = Convert.ToInt32(TextBoxLagerLagerTypeID.Text);
+
+            if (string.IsNullOrEmpty(ProductName) || Quantity == null || LagerTypeID == null)
+            {
+                MessageBox.Show("Eitthvað box er tómt hjá þér");
+            }
+            else
+            {
+                try
+                {
+                    method.SetjaNyjaVoruLager(ProductName, ProductPrice, Quantity, LagerTypeID);
+                    MessageBox.Show("Vara hefur verið sett inn í lager skv upplýsingum frá þér.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString()); // Error msg
+                }
+            }
+        }
+
+
+
+
+        private void dataGridViewLagerDisplay_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridViewLagerDisplay.SelectedRows.Count <= 0) // ef engir dálkar eru. Á ekkert að gerast.
+            {
+                return;
+            }
+            else
+            {
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString() != null) // Ef eitthvað er í dálknum
+                {
+                    TextBoxLagerIDvoru.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString();
+                }
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[1].Value.ToString() != null) // Ef eitthvað er í dálknum
+                {
+                    TextBoxLagerProductName.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[1].Value.ToString();
+                }
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[2].Value.ToString() != null) // Ef eitthvað er í dálknum
+                {
+                    TextBoxLagerProductPrice.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[2].Value.ToString();
+                }
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[3].Value.ToString() != null) // Ef eitthvað er í dálknum
+                {
+                    TextBoxLagerQuantity.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[3].Value.ToString();
+                }
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[4].Value.ToString() != null) // Ef eitthvað er í dálknum
+                {
+                    TextBoxLagerLagerTypeID.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[4].Value.ToString();
+                }
+            }
         }
     }
 }

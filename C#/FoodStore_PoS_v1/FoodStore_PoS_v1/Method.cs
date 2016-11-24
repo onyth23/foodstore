@@ -231,5 +231,21 @@ namespace FoodStore_PoS_v1
         // --------------------------------------------------------------------------------------------------------------------
         // Method DisplayLagerTypeIDDataGridView endar 
         //---------------------------------------------------------------------------------------------------------------------
+
+        public void SetjaNyjaVoruLager(string ProductName, int ProductPrice, int Quantity, int LagerTypeID)
+        {
+            if (OpenConnection() == true)
+            {
+
+                fyrirspurn = "INSERT INTO lager (productname, productprice, quantity, lagertype_id) VALUES ('" + ProductName + "','" + ProductPrice + "','" + Quantity + "','" + LagerTypeID + "')";
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                nySQLskipun.ExecuteNonQuery();
+                CloseConnection();
+            }
+            else
+            {
+                CloseConnection();
+            }
+        }
     }
 }
