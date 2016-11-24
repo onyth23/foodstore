@@ -87,7 +87,11 @@ namespace FoodStore_PoS_v1
             //---------------------------------------------------------------------------------------------------------------------
             int DataGridViewNumberUp = 0;
             int IDCounter = 0;
+<<<<<<< HEAD
             for (int i = 0; i < 500; i++)
+=======
+            for (int i = 0; i < 450; i++)
+>>>>>>> a315822add3e4e8c7c0b3247465becd73b5c62a3
             {
                 string[] gognFraSql = new string[2];
                 try

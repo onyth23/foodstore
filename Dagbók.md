@@ -27,5 +27,17 @@ Gylfi timi 3: Klaraði að sækja myndir af vörum fyrir c#<br />
 
 #23.11.16
 Gylfi tími 1: Vann í database, gerði workhours fyrir employees<br />
+Gylfi tími 2: Las mig til um github branch kerfið.<br />
 Ármann tími 1 : Vinna í c# að gera kóða í lagerstarfsmadur.cs<br />
 Ármann tími 2 : Vinna í c# reyna minnka stressið/load tíma á lagerglugga <br />
+Ármann tími 3 : Vinna í c# lagerwindow<br />
+Ármann tími 4 : Tími að gera windows server allir saman<br />
+Gylfi tími 3: Kláraði að gera tímastimpilinn í database og fórum yfir windowserverinn<br />
+Hávar tími 1: Server er upp and running, host vél er tengd við server, allir groups og users komnir líka<br />
+
+#24.11.16
+Ármann tími 1 : Reyna finna hverni kassagluggi mun líta út.<br />
+Hávar tími 1: Fiktaði eitthvað við windows serverinn, fínpússa notendahópa<br />
+Gylfi tími 1: Gatheraði information um Windows serverinn fyrir framtíðar erfiðleika.<br />
+Gylfi tími 2: Tengdi saman lager.lagertype_id og lagertype.id með primary og foreign key constraints.<br />
+Hávar tími 2: Gerði heimasvæði, prentara og eitthvað dót á servernum <br />
