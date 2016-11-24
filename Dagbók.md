@@ -37,3 +37,4 @@ Hávar tími 1: Server er upp and running, host vél er tengd við server, allir
 
 #24.11.16
 Ármann tími 1 : Reyna finna hverni kassagluggi mun líta út.
+Hávar tími 1: Fiktaði eitthvað við windows serverinn, fínpússa notendahópa
