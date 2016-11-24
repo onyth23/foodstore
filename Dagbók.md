@@ -41,3 +41,4 @@ Hávar tími 1: Fiktaði eitthvað við windows serverinn, fínpússa notendahó
 Gylfi tími 1: Gatheraði information um Windows serverinn fyrir framtíðar erfiðleika.<br />
 Gylfi tími 2: Tengdi saman lager.lagertype_id og lagertype.id með primary og foreign key constraints.<br />
 Hávar tími 2: Gerði heimasvæði, prentara og eitthvað dót á servernum <br />
+Ármann tími 2 : Vinna í c# lagerglugga <br />
