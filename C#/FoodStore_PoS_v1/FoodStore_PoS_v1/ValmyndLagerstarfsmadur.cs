@@ -25,22 +25,20 @@ namespace FoodStore_PoS_v1
             InitializeComponent();
         }
 
-        Method method = new Method();
+        Method method = new Method(); // Tengja glugga við method.cs
 
         private void ValmyndLagerstarfsmadur_Load(object sender, EventArgs e)
         {
             method.TengingVidGagnagrunn(); // Tengir við Sql database 
             LagerLoad();
             LagerTypeIDLoad();
-
-            
         }
 
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method DisplayLagerDataGridView er notuð hér til að birta lager í ValmyndLagerstarfsmadur.cs 
+        //---------------------------------------------------------------------------------------------------------------------
         public void LagerLoad()
         {
-            // --------------------------------------------------------------------------------------------------------------------
-            // Method DisplayLagerDataGridView er notuð hér til að birta lager í ValmyndLagerstarfsmadur.cs 
-            //---------------------------------------------------------------------------------------------------------------------
             int DataGridViewNumberUp = 0;
             int IDCounter = 0;
             for (int i = 0; i < 75; i++)
@@ -80,18 +78,15 @@ namespace FoodStore_PoS_v1
             }
         }
 
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method DisplayLagerTypeIDDataGridView er notuð hér til að birta lagertype_id í ValmyndLagerstarfsmadur.cs 
+        //---------------------------------------------------------------------------------------------------------------------
         public void LagerTypeIDLoad()
         {
-            // --------------------------------------------------------------------------------------------------------------------
-            // Method DisplayLagerTypeIDDataGridView er notuð hér til að birta lagertype_id í ValmyndLagerstarfsmadur.cs 
-            //---------------------------------------------------------------------------------------------------------------------
             int DataGridViewNumberUp = 0;
             int IDCounter = 0;
-<<<<<<< HEAD
-            for (int i = 0; i < 500; i++)
-=======
+
             for (int i = 0; i < 450; i++)
->>>>>>> a315822add3e4e8c7c0b3247465becd73b5c62a3
             {
                 string[] gognFraSql = new string[2];
                 try
@@ -119,20 +114,18 @@ namespace FoodStore_PoS_v1
                     MessageBox.Show(ex.ToString());
                 }
                 IDCounter++;
-            }  
+            }
         }
 
-        
+        // --------------------------------------------------------------------------------------------------------------------
+        // Refresh button kallar í báðar lager method, 
+        // ---------------------------------------------------------------------------------------------------------------------
         private void button1_Click(object sender, EventArgs e)
         {
-            // --------------------------------------------------------------------------------------------------------------------
-            // Refresh button kallar í báðar lager method, 
-            // ---------------------------------------------------------------------------------------------------------------------
             dataGridViewLagerDisplay.ClearSelection();
             dataGridViewLagertypeIDDisplay.ClearSelection();
             LagerLoad();
             LagerTypeIDLoad();
-
         }
 
         // --------------------------------------------------------------------------------------------------------------------
@@ -165,38 +158,68 @@ namespace FoodStore_PoS_v1
             }
         }
 
-
-
-
+        // --------------------------------------------------------------------------------------------------------------------
+        // SelectionChanged Method sem tekur upplýsingar úr datagridvewLagerDisplay og fyllir út textbox sem tengjast því
+        // ---------------------------------------------------------------------------------------------------------------------
         private void dataGridViewLagerDisplay_SelectionChanged(object sender, EventArgs e)
         {
-            if (dataGridViewLagerDisplay.SelectedRows.Count <= 0) // ef engir dálkar eru. Á ekkert að gerast.
+            if (dataGridViewLagerDisplay.SelectedRows.Count <= 0)
             {
                 return;
             }
             else
             {
-                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString() != null) // Ef eitthvað er í dálknum
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString() != null)
                 {
                     TextBoxLagerIDvoru.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString();
                 }
-                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[1].Value.ToString() != null) // Ef eitthvað er í dálknum
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[1].Value.ToString() != null)
                 {
                     TextBoxLagerProductName.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[1].Value.ToString();
                 }
-                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[2].Value.ToString() != null) // Ef eitthvað er í dálknum
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[2].Value.ToString() != null)
                 {
                     TextBoxLagerProductPrice.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[2].Value.ToString();
                 }
-                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[3].Value.ToString() != null) // Ef eitthvað er í dálknum
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[3].Value.ToString() != null)
                 {
                     TextBoxLagerQuantity.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[3].Value.ToString();
                 }
-                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[4].Value.ToString() != null) // Ef eitthvað er í dálknum
+                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[4].Value.ToString() != null)
                 {
                     TextBoxLagerLagerTypeID.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[4].Value.ToString();
                 }
             }
+        }
+
+        // --------------------------------------------------------------------------------------------------------------------
+        // SelectionChanged Method sem tekur upplýsingar út DataGridViewLagerIdDisplay og fyllir út textbox sem tengjast því
+        // ---------------------------------------------------------------------------------------------------------------------
+        private void dataGridViewLagerIdDisplay_SelectionChange(object sender, EventArgs e)
+        {
+            if (dataGridViewLagertypeIDDisplay.SelectedRows.Count <= 0) 
+            {
+                return;
+            }
+            else
+            {
+                if (dataGridViewLagertypeIDDisplay.SelectedRows[0].Cells[0].Value.ToString() != null)
+                {
+                    TextBoxLagerTypeIDLagerTypeID.Text = dataGridViewLagertypeIDDisplay.SelectedRows[0].Cells[0].Value.ToString();
+                }
+                if (dataGridViewLagertypeIDDisplay.SelectedRows[0].Cells[1].Value.ToString() != null)
+                {
+                    TextBoxLagerTypeIDName.Text = dataGridViewLagertypeIDDisplay.SelectedRows[0].Cells[1].Value.ToString();
+                }
+            }
+        }
+
+        // --------------------------------------------------------------------------------------------------------------------
+        // SelectionChanged Method sem tekur upplýsingar út DataGridViewLagerIdDisplay og fyllir út textbox sem tengjast því
+        // ---------------------------------------------------------------------------------------------------------------------
+        private void ButtonUppfaeraVoruLager_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

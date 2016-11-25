@@ -35,3 +35,5 @@ C:\Users\TEMP.2T\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_Po
 C:\Users\TEMP.2T\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.pdb
 C:\Users\1903902929\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.ValmyndKassastarfsmadur.resources
 C:\Users\1903902929\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.ValmyndLagerstarfsmadur.resources
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.ValmyndKassastarfsmadur.resources
+C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.ValmyndLagerstarfsmadur.resources

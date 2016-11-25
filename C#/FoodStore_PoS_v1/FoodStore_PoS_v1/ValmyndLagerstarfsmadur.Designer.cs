@@ -91,6 +91,7 @@
             this.ButtonUppfaeraVoruLager.TabIndex = 2;
             this.ButtonUppfaeraVoruLager.Text = "Uppfæra vöru (lager)";
             this.ButtonUppfaeraVoruLager.UseVisualStyleBackColor = true;
+            this.ButtonUppfaeraVoruLager.Click += new System.EventHandler(this.ButtonUppfaeraVoruLager_Click);
             // 
             // dataGridViewLagerDisplay
             // 
@@ -106,6 +107,7 @@
             this.dataGridViewLagerDisplay.Name = "dataGridViewLagerDisplay";
             this.dataGridViewLagerDisplay.Size = new System.Drawing.Size(663, 609);
             this.dataGridViewLagerDisplay.TabIndex = 3;
+            this.dataGridViewLagerDisplay.SelectionChanged += new System.EventHandler(this.dataGridViewLagerDisplay_SelectionChanged);
             // 
             // ID
             // 
@@ -212,6 +214,7 @@
             this.dataGridViewLagertypeIDDisplay.Name = "dataGridViewLagertypeIDDisplay";
             this.dataGridViewLagertypeIDDisplay.Size = new System.Drawing.Size(359, 608);
             this.dataGridViewLagertypeIDDisplay.TabIndex = 12;
+            this.dataGridViewLagertypeIDDisplay.SelectionChanged += new System.EventHandler(this.dataGridViewLagerIdDisplay_SelectionChange);
             // 
             // LagertypeID
             // 
