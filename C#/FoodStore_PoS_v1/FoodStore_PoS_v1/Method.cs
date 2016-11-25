@@ -214,7 +214,7 @@ namespace FoodStore_PoS_v1
             string[] gogn = new string[2];
             if (OpenConnection() == true)
             {
-                fyrirspurn = "SELECT ID, Name from lagertype where ID='" + ID + "'"; 
+                fyrirspurn = "SELECT ID, Name from lagertype where ID='" + ID + "'";
                 nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
                 sqllesari = nySQLskipun.ExecuteReader();
                 while (sqllesari.Read())
@@ -231,7 +231,11 @@ namespace FoodStore_PoS_v1
         // --------------------------------------------------------------------------------------------------------------------
         // Method DisplayLagerTypeIDDataGridView endar 
         //---------------------------------------------------------------------------------------------------------------------
-
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method SetjaNyjarVoruLager byrjar
+        // Situr nyja vöru í sql database i lager, ID er auto. 
+        // Er notuð af ValmyndLagerstarfsmadur.cs 
+        //---------------------------------------------------------------------------------------------------------------------
         public void SetjaNyjaVoruLager(string ProductName, int ProductPrice, int Quantity, int LagerTypeID)
         {
             if (OpenConnection() == true)
@@ -247,5 +251,22 @@ namespace FoodStore_PoS_v1
                 CloseConnection();
             }
         }
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method SetjaNjaVoruLager endar 
+        //---------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method UppfaeraLagerVoru byrjar
+        //---------------------------------------------------------------------------------------------------------------------
+        public void UppfaeraLagerVoru(int id, string ProductName, int ProductPrice, int Quantity, int LagerTypeID)
+        {
+            if (OpenConnection() == true)
+            {
+                fyrirspurn = "Update lager set productname='" + ProductName + "', productprice='" + ProductPrice + "', quantity='" + Quantity + "', lagertype_id='" + LagerTypeID + "' where ID='" + id + "'";
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                nySQLskipun.ExecuteNonQuery();
+                CloseConnection();
+            }
+        }
+
     }
 }

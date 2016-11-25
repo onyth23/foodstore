@@ -219,6 +219,27 @@ namespace FoodStore_PoS_v1
         // ---------------------------------------------------------------------------------------------------------------------
         private void ButtonUppfaeraVoruLager_Click(object sender, EventArgs e)
         {
+            string ProductName = TextBoxLagerProductName.Text;
+            int ProductPrice = Convert.ToInt32(TextBoxLagerProductPrice.Text), Quantity = Convert.ToInt32(TextBoxLagerQuantity.Text),
+                LagertypeID = Convert.ToInt32(TextBoxLagerLagerTypeID.Text), id = Convert.ToInt32(TextBoxLagerIDvoru.Text);
+
+            if (string.IsNullOrEmpty(ProductName))
+            {
+                MessageBox.Show("Box eru tóm hjá þér.");
+            }
+            else
+            {
+                try
+                {
+                    method.UppfaeraLagerVoru(id, ProductName, ProductPrice, Quantity, LagertypeID);
+                    MessageBox.Show(id + " hefur verið uppfærð skv. input frá textbox.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+
 
         }
     }
