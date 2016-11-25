@@ -32,8 +32,6 @@ namespace FoodStore_PoS_v1
             method.TengingVidGagnagrunn(); // Tengir við Sql database 
             LagerLoad();
             LagerTypeIDLoad();
-
-            
         }
 
         public void LagerLoad()
@@ -87,7 +85,6 @@ namespace FoodStore_PoS_v1
             //---------------------------------------------------------------------------------------------------------------------
             int DataGridViewNumberUp = 0;
             int IDCounter = 0;
-
             for (int i = 0; i < 450; i++)
             {
                 string[] gognFraSql = new string[2];
@@ -119,65 +116,17 @@ namespace FoodStore_PoS_v1
             }  
         }
 
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             // --------------------------------------------------------------------------------------------------------------------
             // Refresh button kallar í báðar lager method, 
-            // ---------------------------------------------------------------------------------------------------------------------
+            //---------------------------------------------------------------------------------------------------------------------
             dataGridViewLagerDisplay.ClearSelection();
             dataGridViewLagertypeIDDisplay.ClearSelection();
             LagerLoad();
             LagerTypeIDLoad();
-
         }
-
-        // --------------------------------------------------------------------------------------------------------------------
-        // Button setja nýjar vörur í lager. 
-        // Setur vörur inn með input frá textbox í ValmyndLagerstarfsmadur
-        // Notar method SetjaNyjaVorurLager í method.cs
-        // ---------------------------------------------------------------------------------------------------------------------
-        private void ButtonSetjaNyjaVoruLager_Click(object sender, EventArgs e)
-        {
-            string ProductName = TextBoxLagerProductName.Text;
-            int ProductPrice = Convert.ToInt32(TextBoxLagerProductPrice.Text);
-            int Quantity = Convert.ToInt32(TextBoxLagerQuantity.Text);
-            int LagerTypeID = Convert.ToInt32(TextBoxLagerLagerTypeID.Text);
-
-            if (string.IsNullOrEmpty(ProductName) || Quantity == null || LagerTypeID == null)
-            {
-                MessageBox.Show("Eitthvað box er tómt hjá þér");
-            }
-            else
-            {
-                try
-                {
-                    method.SetjaNyjaVoruLager(ProductName, ProductPrice, Quantity, LagerTypeID);
-                    MessageBox.Show("Vara hefur verið sett inn í lager skv upplýsingum frá þér.");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString()); // Error msg
-                }
-            }
-        }
-
-        private void dataGridViewLagerDisplay_SelectionChanged(object sender, EventArgs e)
-        {
-            if (dataGridViewLagerDisplay.SelectedRows.Count <= 0)
-            {
-                return;
-            }
-            else
-            {
-                if (dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString() != null)
-                {
-                    TextBoxLagerIDvoru.Text = dataGridViewLagerDisplay.SelectedRows[0].Cells[0].Value.ToString();
-                }
-            }
-
-        }
-      
     }
 }
     
