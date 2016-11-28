@@ -51,4 +51,5 @@ Hávar Tími 1: Setti upp home directory fyrir notendur í win servernum<br />
 Hávar Tími 1: Gerði ýmislegt í servernum. <br />
 Gylfi tími 1: gagnagrunnurinn kominn. <br />
 Ármann tími 1 : Vann í c# no commit á það <br />
-Ármann tími 2 : skoða vidoe varðandi sql database<br />
+Ármann tími 2 : skoða vidoe varðandi sql databasec#<br />
+Gylfi tími 2: vann með hávari með að starta forriti á logon.<br />
