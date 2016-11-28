@@ -45,7 +45,8 @@ Hávar tími 2: Gerði heimasvæði, prentara og eitthvað dót á servernum <br
 
 #25.11.16
 Ármann tími 1 : Githud vesen<br />
-Hávar Tími 1: Setti upp home directory fyrir notendur í win servernum
+Hávar Tími 1: Setti upp home directory fyrir notendur í win servernum<br />
 
 #28.11.16
-Hávar Tími 1: Gerði ýmislegt í servernum. 
+Hávar Tími 1: Gerði ýmislegt í servernum. <br />
+Gylfi tími 1: gagnagrunnurinn kominn. <br />
