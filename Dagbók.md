@@ -56,3 +56,6 @@ Gylfi tími 2: vann með hávari með að starta forriti á logon.<br />
 Hávar Tími2: Setti upp prentaram startup forrit og software á servernum <br />
 Gylfi tími 3: Setti up reglur í Group policy fyrir Kassastarfsmann<br />
 Ármann tími 3 : Tími með Gylfa
+
+#29.11.16
+Ármann tími 1 : c# time<br />
