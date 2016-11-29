@@ -59,3 +59,4 @@ Gylfi tími 3: Setti up reglur í Group policy fyrir Kassastarfsmann<br />
 
 #29.11.16
 Ármann tími 1 : c# time<br />
+Ármann heima : kláraði c# lager <br />

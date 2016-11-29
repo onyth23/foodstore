@@ -70,6 +70,7 @@
             this.ButtonBuaTilVoruFlokk.TabIndex = 0;
             this.ButtonBuaTilVoruFlokk.Text = "Búa til vöruflokk (lagertype)";
             this.ButtonBuaTilVoruFlokk.UseVisualStyleBackColor = true;
+            this.ButtonBuaTilVoruFlokk.Click += new System.EventHandler(this.ButtonBuaTilVoruFlokk_Click);
             // 
             // ButtonSetjaNyjaVoruLager
             // 

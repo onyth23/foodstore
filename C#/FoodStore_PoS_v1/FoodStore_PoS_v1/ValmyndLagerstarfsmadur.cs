@@ -242,6 +242,32 @@ namespace FoodStore_PoS_v1
 
 
         }
+        // --------------------------------------------------------------------------------------------------------------------
+        // Button aðferð til að búa til vöruflokk í lagertype í database foodstore
+        // ---------------------------------------------------------------------------------------------------------------------
+        private void ButtonBuaTilVoruFlokk_Click(object sender, EventArgs e)
+        {
+            int LagertypeID = Convert.ToInt32(TextBoxLagerTypeIDLagerTypeID.Text);
+            string Name = TextBoxLagerTypeIDName.Text;
+
+            if (string.IsNullOrEmpty(Name))
+            {
+                MessageBox.Show("Eitthvað box er tómt hjá þér.");
+            }
+            else
+            {
+                try
+                {
+                    method.BuaTilLagerTypeID(LagertypeID, Name);
+                    MessageBox.Show("Hefur gert nýtt lagertype id");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+            }
+
+        }
     }
 }
     

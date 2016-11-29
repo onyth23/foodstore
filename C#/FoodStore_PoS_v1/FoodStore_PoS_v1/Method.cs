@@ -267,6 +267,23 @@ namespace FoodStore_PoS_v1
                 CloseConnection();
             }
         }
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method UppfæraLagerVoru endar
+        //---------------------------------------------------------------------------------------------------------------------
+        // --------------------------------------------------------------------------------------------------------------------
+        // Method BuaTilLagerTypeID byrjar
+        //---------------------------------------------------------------------------------------------------------------------
+        public void BuaTilLagerTypeID(int ID, string name)
+        {
+            if (OpenConnection() == true)
+            {
+                fyrirspurn = "INSERT INTO lagertype (Id, name) VALUES ('" + ID + "','" + name + "')";
+                nySQLskipun = new MySqlCommand(fyrirspurn, sqltenging);
+                nySQLskipun.ExecuteNonQuery();
+                CloseConnection();
+            }
+        }
+
 
     }
 }
