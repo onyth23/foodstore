@@ -64,3 +64,7 @@ Gylfi tími 1: vann í c# <br />
 
 #30.11.16
 Gylfi tími 1: vann i c# <br />
+Ármann tími 1 : vinna í c# kassastarfsmadur<br />
+Ármann tími 2 : vinna í c# kassastafsmadur<br />
+Ármann tími 3 : vinna í c# kassastafsmadur<br />
+Ármann tími4/heima : vinna í c# kassastarfsmadur<br />
