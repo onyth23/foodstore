@@ -28,162 +28,176 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ValmyndKassastarfsmadur));
+            this.ButtonOvirkur103 = new System.Windows.Forms.Button();
+            this.ButtonGraenmeti201 = new System.Windows.Forms.Button();
+            this.ButtonAvextir101 = new System.Windows.Forms.Button();
+            this.ButtonOvirkur203 = new System.Windows.Forms.Button();
+            this.ButtonOvirkur201 = new System.Windows.Forms.Button();
+            this.ButtonMjolkvorur201 = new System.Windows.Forms.Button();
+            this.ButtonOvirkur303 = new System.Windows.Forms.Button();
+            this.ButtonOvirkur302 = new System.Windows.Forms.Button();
+            this.ButtonKjotvorur301 = new System.Windows.Forms.Button();
+            this.ButtonOvirkur403 = new System.Windows.Forms.Button();
+            this.ButtonNammi402 = new System.Windows.Forms.Button();
+            this.ButtonGos401 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // ButtonOvirkur103
             // 
-            this.button1.Location = new System.Drawing.Point(1108, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 120);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Óvirkur";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur103.Location = new System.Drawing.Point(1108, 12);
+            this.ButtonOvirkur103.Name = "ButtonOvirkur103";
+            this.ButtonOvirkur103.Size = new System.Drawing.Size(120, 120);
+            this.ButtonOvirkur103.TabIndex = 0;
+            this.ButtonOvirkur103.Text = "Óvirkur";
+            this.ButtonOvirkur103.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur103.Click += new System.EventHandler(this.ButtonOvirkur103_Click);
             // 
-            // button2
+            // ButtonGraenmeti201
             // 
-            this.button2.Location = new System.Drawing.Point(982, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 120);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Grænmeti\r\nLagertype 102";
-            this.button2.UseVisualStyleBackColor = true;
+            this.ButtonGraenmeti201.Location = new System.Drawing.Point(982, 12);
+            this.ButtonGraenmeti201.Name = "ButtonGraenmeti201";
+            this.ButtonGraenmeti201.Size = new System.Drawing.Size(120, 120);
+            this.ButtonGraenmeti201.TabIndex = 1;
+            this.ButtonGraenmeti201.Text = "Grænmeti\r\nLagertype 102";
+            this.ButtonGraenmeti201.UseVisualStyleBackColor = true;
+            this.ButtonGraenmeti201.Click += new System.EventHandler(this.ButtonGraenmeti201_Click);
             // 
-            // button3
+            // ButtonAvextir101
             // 
-            this.button3.Location = new System.Drawing.Point(856, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 120);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Ávextir\r\nLagertype 101";
-            this.button3.UseVisualStyleBackColor = true;
+            this.ButtonAvextir101.Location = new System.Drawing.Point(856, 12);
+            this.ButtonAvextir101.Name = "ButtonAvextir101";
+            this.ButtonAvextir101.Size = new System.Drawing.Size(120, 120);
+            this.ButtonAvextir101.TabIndex = 2;
+            this.ButtonAvextir101.Text = "Ávextir\r\nLagertype 101";
+            this.ButtonAvextir101.UseVisualStyleBackColor = true;
+            this.ButtonAvextir101.Click += new System.EventHandler(this.ButtonAvextir101_Click);
             // 
-            // button4
+            // ButtonOvirkur203
             // 
-            this.button4.Location = new System.Drawing.Point(1108, 139);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 120);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Óvirkur";
-            this.button4.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur203.Location = new System.Drawing.Point(1108, 139);
+            this.ButtonOvirkur203.Name = "ButtonOvirkur203";
+            this.ButtonOvirkur203.Size = new System.Drawing.Size(120, 120);
+            this.ButtonOvirkur203.TabIndex = 3;
+            this.ButtonOvirkur203.Text = "Óvirkur";
+            this.ButtonOvirkur203.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur203.Click += new System.EventHandler(this.ButtonOvirkur203_Click);
             // 
-            // button5
+            // ButtonOvirkur201
             // 
-            this.button5.Location = new System.Drawing.Point(982, 139);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 120);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Óvirkur";
-            this.button5.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur201.Location = new System.Drawing.Point(982, 139);
+            this.ButtonOvirkur201.Name = "ButtonOvirkur201";
+            this.ButtonOvirkur201.Size = new System.Drawing.Size(120, 120);
+            this.ButtonOvirkur201.TabIndex = 4;
+            this.ButtonOvirkur201.Text = "Óvirkur";
+            this.ButtonOvirkur201.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur201.Click += new System.EventHandler(this.ButtonOvirkur201_Click);
             // 
-            // button6
+            // ButtonMjolkvorur201
             // 
-            this.button6.Location = new System.Drawing.Point(856, 139);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 120);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Mjólkuvörur\r\nLagertype 201";
-            this.button6.UseVisualStyleBackColor = true;
+            this.ButtonMjolkvorur201.Location = new System.Drawing.Point(856, 139);
+            this.ButtonMjolkvorur201.Name = "ButtonMjolkvorur201";
+            this.ButtonMjolkvorur201.Size = new System.Drawing.Size(120, 120);
+            this.ButtonMjolkvorur201.TabIndex = 5;
+            this.ButtonMjolkvorur201.Text = "Mjólkuvörur\r\nLagertype 201";
+            this.ButtonMjolkvorur201.UseVisualStyleBackColor = true;
+            this.ButtonMjolkvorur201.Click += new System.EventHandler(this.ButtonMjolkvorur201_Click);
             // 
-            // button7
+            // ButtonOvirkur303
             // 
-            this.button7.Location = new System.Drawing.Point(1108, 266);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 120);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Óvirkur";
-            this.button7.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur303.Location = new System.Drawing.Point(1108, 266);
+            this.ButtonOvirkur303.Name = "ButtonOvirkur303";
+            this.ButtonOvirkur303.Size = new System.Drawing.Size(120, 120);
+            this.ButtonOvirkur303.TabIndex = 6;
+            this.ButtonOvirkur303.Text = "Óvirkur";
+            this.ButtonOvirkur303.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur303.Click += new System.EventHandler(this.ButtonOvirkur303_Click);
             // 
-            // button8
+            // ButtonOvirkur302
             // 
-            this.button8.Location = new System.Drawing.Point(982, 266);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(120, 120);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Óvirkur";
-            this.button8.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur302.Location = new System.Drawing.Point(982, 266);
+            this.ButtonOvirkur302.Name = "ButtonOvirkur302";
+            this.ButtonOvirkur302.Size = new System.Drawing.Size(120, 120);
+            this.ButtonOvirkur302.TabIndex = 7;
+            this.ButtonOvirkur302.Text = "Óvirkur";
+            this.ButtonOvirkur302.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur302.Click += new System.EventHandler(this.ButtonOvirkur302_Click);
             // 
-            // button9
+            // ButtonKjotvorur301
             // 
-            this.button9.Location = new System.Drawing.Point(856, 266);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(120, 120);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Kjötvörur\r\nLagertype 301";
-            this.button9.UseVisualStyleBackColor = true;
+            this.ButtonKjotvorur301.Location = new System.Drawing.Point(856, 266);
+            this.ButtonKjotvorur301.Name = "ButtonKjotvorur301";
+            this.ButtonKjotvorur301.Size = new System.Drawing.Size(120, 120);
+            this.ButtonKjotvorur301.TabIndex = 8;
+            this.ButtonKjotvorur301.Text = "Kjötvörur\r\nLagertype 301";
+            this.ButtonKjotvorur301.UseVisualStyleBackColor = true;
+            this.ButtonKjotvorur301.Click += new System.EventHandler(this.ButtonKjotvorur301_Click);
             // 
-            // button10
+            // ButtonOvirkur403
             // 
-            this.button10.Location = new System.Drawing.Point(1108, 392);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(120, 120);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Óvirkur";
-            this.button10.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur403.Location = new System.Drawing.Point(1108, 392);
+            this.ButtonOvirkur403.Name = "ButtonOvirkur403";
+            this.ButtonOvirkur403.Size = new System.Drawing.Size(120, 120);
+            this.ButtonOvirkur403.TabIndex = 9;
+            this.ButtonOvirkur403.Text = "Óvirkur";
+            this.ButtonOvirkur403.UseVisualStyleBackColor = true;
+            this.ButtonOvirkur403.Click += new System.EventHandler(this.ButtonOvirkur403_Click);
             // 
-            // button11
+            // ButtonNammi402
             // 
-            this.button11.Location = new System.Drawing.Point(982, 393);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(120, 120);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "Nammi\r\nLagertype 402";
-            this.button11.UseVisualStyleBackColor = true;
+            this.ButtonNammi402.Location = new System.Drawing.Point(982, 393);
+            this.ButtonNammi402.Name = "ButtonNammi402";
+            this.ButtonNammi402.Size = new System.Drawing.Size(120, 120);
+            this.ButtonNammi402.TabIndex = 10;
+            this.ButtonNammi402.Text = "Nammi\r\nLagertype 402";
+            this.ButtonNammi402.UseVisualStyleBackColor = true;
+            this.ButtonNammi402.Click += new System.EventHandler(this.ButtonNammi402_Click);
             // 
-            // button12
+            // ButtonGos401
             // 
-            this.button12.Location = new System.Drawing.Point(856, 393);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(120, 120);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Gos\r\nLagertype 401";
-            this.button12.UseVisualStyleBackColor = true;
+            this.ButtonGos401.Location = new System.Drawing.Point(856, 393);
+            this.ButtonGos401.Name = "ButtonGos401";
+            this.ButtonGos401.Size = new System.Drawing.Size(120, 120);
+            this.ButtonGos401.TabIndex = 11;
+            this.ButtonGos401.Text = "Gos\r\nLagertype 401";
+            this.ButtonGos401.UseVisualStyleBackColor = true;
+            this.ButtonGos401.Click += new System.EventHandler(this.ButtonGos401_Click);
             // 
             // ValmyndKassastarfsmadur
             // 
             this.ClientSize = new System.Drawing.Size(1240, 804);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ButtonGos401);
+            this.Controls.Add(this.ButtonNammi402);
+            this.Controls.Add(this.ButtonOvirkur403);
+            this.Controls.Add(this.ButtonKjotvorur301);
+            this.Controls.Add(this.ButtonOvirkur302);
+            this.Controls.Add(this.ButtonOvirkur303);
+            this.Controls.Add(this.ButtonMjolkvorur201);
+            this.Controls.Add(this.ButtonOvirkur201);
+            this.Controls.Add(this.ButtonOvirkur203);
+            this.Controls.Add(this.ButtonAvextir101);
+            this.Controls.Add(this.ButtonGraenmeti201);
+            this.Controls.Add(this.ButtonOvirkur103);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ValmyndKassastarfsmadur";
-            this.Text = "ValmyndKassastarfsmadur";
+            this.Text = "Kassi FoodStore";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button ButtonOvirkur103;
+        private System.Windows.Forms.Button ButtonGraenmeti201;
+        private System.Windows.Forms.Button ButtonAvextir101;
+        private System.Windows.Forms.Button ButtonOvirkur203;
+        private System.Windows.Forms.Button ButtonOvirkur201;
+        private System.Windows.Forms.Button ButtonMjolkvorur201;
+        private System.Windows.Forms.Button ButtonOvirkur303;
+        private System.Windows.Forms.Button ButtonOvirkur302;
+        private System.Windows.Forms.Button ButtonKjotvorur301;
+        private System.Windows.Forms.Button ButtonOvirkur403;
+        private System.Windows.Forms.Button ButtonNammi402;
+        private System.Windows.Forms.Button ButtonGos401;
     }
 }

@@ -48,6 +48,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KassiValmyndAvextir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KassiValmyndAvextir.Designer.cs">
+      <DependentUpon>KassiValmyndAvextir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KassiValmyndGos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KassiValmyndGos.Designer.cs">
+      <DependentUpon>KassiValmyndGos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KassiValmyndGraenmeti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KassiValmyndGraenmeti.Designer.cs">
+      <DependentUpon>KassiValmyndGraenmeti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KassiValmyndKjotvorur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KassiValmyndKjotvorur.Designer.cs">
+      <DependentUpon>KassiValmyndKjotvorur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KassiValmyndMjolkvorur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KassiValmyndMjolkvorur.Designer.cs">
+      <DependentUpon>KassiValmyndMjolkvorur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KassiValmyndNammi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KassiValmyndNammi.Designer.cs">
+      <DependentUpon>KassiValmyndNammi.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +117,24 @@
     <Compile Include="ValmyndVerslunarstjori.Designer.cs">
       <DependentUpon>ValmyndVerslunarstjori.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="KassiValmyndAvextir.resx">
+      <DependentUpon>KassiValmyndAvextir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KassiValmyndGos.resx">
+      <DependentUpon>KassiValmyndGos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KassiValmyndGraenmeti.resx">
+      <DependentUpon>KassiValmyndGraenmeti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KassiValmyndKjotvorur.resx">
+      <DependentUpon>KassiValmyndKjotvorur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KassiValmyndMjolkvorur.resx">
+      <DependentUpon>KassiValmyndMjolkvorur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KassiValmyndNammi.resx">
+      <DependentUpon>KassiValmyndNammi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginWindow.resx">
       <DependentUpon>LoginWindow.cs</DependentUpon>
     </EmbeddedResource>
