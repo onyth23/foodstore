@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodStore_PoS_v1", "FoodStore_PoS_v1\FoodStore_PoS_v1.csproj", "{373EF740-9F69-4541-BFC8-9E731D684FF6}"
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup1", "Setup1\Setup1.isproj", "{3C8BFB17-0442-44DC-8F29-1957537A8483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,16 +24,6 @@ Global
 		{373EF740-9F69-4541-BFC8-9E731D684FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{373EF740-9F69-4541-BFC8-9E731D684FF6}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{373EF740-9F69-4541-BFC8-9E731D684FF6}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.Debug|Any CPU.ActiveCfg = DVD-5
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.Debug|Any CPU.Build.0 = DVD-5
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.DVD-5|Any CPU.Build.0 = DVD-5
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.Release|Any CPU.ActiveCfg = SingleImage
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.Release|Any CPU.Build.0 = SingleImage
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{3C8BFB17-0442-44DC-8F29-1957537A8483}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
