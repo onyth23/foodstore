@@ -66,5 +66,9 @@ Gylfi tími 1: vann í c# <br />
 Gylfi tími 1: vann i c# <br />
 Ármann tími 1 : vinna í c# kassastarfsmadur<br />
 Ármann tími 2 : vinna í c# kassastafsmadur<br />
+Gylfi tími 2: vann í c# <br />
 Ármann tími 3 : vinna í c# kassastafsmadur<br />
 Ármann tími4/heima : vinna í c# kassastarfsmadur<br />
+
+#1.12.16
+Gylfi tími 1: Kláraði að tengja myndir við hnappa í c#<br />
