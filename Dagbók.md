@@ -73,3 +73,5 @@ Gylfi tími 2: vann í c# <br />
 #1.12.16
 Gylfi tími 1: Kláraði að tengja myndir við hnappa í c#<br />
 Gylfi tími 2: bjó til msi package ur c#<br />
+Hávar Tími 1: GP dót í servernum, Kassastarfsmanna hópurinn er nánast ready, er kominn í semi Kiosk mode <br />
+Hávar Tími 2: Reyna að laga login scriptið í alltof langan tíma <br />
