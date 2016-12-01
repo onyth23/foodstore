@@ -46,3 +46,13 @@ C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_Po
 C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndKjotvorur.resources
 C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndMjolkvorur.resources
 C:\Users\Ármann\OneDrive\Hópaverkefni 2016 haustönn\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndNammi.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndAvextir.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndGos.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndGraenmeti.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndKjotvorur.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndMjolkvorur.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.KassiValmyndNammi.resources
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\bin\Debug\FoodStore_PoS_v1.exe.manifest
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\bin\Debug\FoodStore_PoS_v1.application
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.exe.manifest
+H:\foodstore\C#\FoodStore_PoS_v1\FoodStore_PoS_v1\obj\Debug\FoodStore_PoS_v1.application
