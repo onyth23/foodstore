@@ -72,3 +72,4 @@ Gylfi tími 2: vann í c# <br />
 
 #1.12.16
 Gylfi tími 1: Kláraði að tengja myndir við hnappa í c#<br />
+Gylfi tími 2: bjó til msi package ur c#<br />
