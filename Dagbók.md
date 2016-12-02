@@ -78,3 +78,4 @@ Hávar Tími 2: Reyna að laga login scriptið í alltof langan tíma <br />
 
 #2.12.16
 Hávar Tími 1: Þetta logon script bara ætlar ekki að virka. Búinn að fara í gegnum öll GPOs sem til eru. <br />
+Hávar Tími2 : Gerði eitthvað í servernum, reyna að fá þetta til að virka. <br /> 
