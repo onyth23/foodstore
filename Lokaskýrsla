@@ -1,0 +1,30 @@
+Skýrsla fyrir FoodStore HáG. 
+Hávar, Ármann og Gylfi. 
+
+Hávar 31,25% = 5 tölvutímar Sá mest um window umhverfið
+Ármann 37.5% = 6 tölvutímar Sá mest um c# forrtið
+Gylfi 31,25% = 5 tölvutímar Sá mest um database og síðan hjálpaði Ármanni og Hávar líka. Svon master of all trades.
+
+Þetta er windows umhverfi með PoS system fyrir matarbúð sem heitir FoodStore.
+Window server sem heldur utan um lager og kassastarfsfólk. 
+c# forrit sem heldur utan um lager og sölu fyrirtæks.
+
+Hver eru næstu skref, ókláruð virkni, endurbætur.
+c# :
+Hlutir sem þarf að klára. :
+Undir ValmyndKassastarfsmadur þarf að laga datagrid og ganga frá Greiða og hætta við sölu button.
+Þarf að copy síðan lagerstarfsman og kassastarf og setja undir 2 mismundi flipa í verslunarstjóri.
+Setja myndir á button í vörum. 
+endurbætur : 
+Fara yfir kóða og commenta meira svo kóðinn er þæginlegur fyrir aðra til að skoða og vinna í.
+Næsta skref : 
+Time clock þarf að tengja við workhours í database.
+Gera logout button sem gerir windows skipun og drepur á tölvuni. 
+
+
+Samantekt : 
+Github hjálpaði okkur mjög mikið að vinna saman þótt við vorum ekki alltaf saman í tíma.
+Gekk bara vel að vinna sem hópur þótt við vorum í mismundi hlutum. 
+Held að vera saman í 50% af tímum hjálpar hópvinnu mjög mikið, til dæmis alltaf á mánudögum saman í timum.
+Svo hægt að ræða og plana verkefnið í byrjun á vikuni.
+
