@@ -16,3 +16,6 @@ C:\Users\Ármann\Desktop\C# FoodStore v2\FoodStore\FoodStore\obj\Debug\FoodStore
 C:\Users\Ármann\Desktop\C# FoodStore v2\FoodStore\FoodStore\obj\Debug\FoodStore.KassiValmyndMjolkuvorur.resources
 C:\Users\Ármann\Desktop\C# FoodStore v2\FoodStore\FoodStore\obj\Debug\FoodStore.KassiValmyndNammi.resources
 C:\Users\Ármann\Desktop\C# FoodStore v2\FoodStore\FoodStore\obj\Debug\FoodStore.ValmyndLagerStarfsmadur.resources
+C:\Users\Ármann\Desktop\GitPull\C# FoodStore v2\FoodStore\FoodStore\bin\Debug\FoodStore.exe.config
+C:\Users\Ármann\Desktop\GitPull\C# FoodStore v2\FoodStore\FoodStore\obj\Debug\FoodStore.exe
+C:\Users\Ármann\Desktop\GitPull\C# FoodStore v2\FoodStore\FoodStore\obj\Debug\FoodStore.pdb
