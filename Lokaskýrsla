@@ -20,6 +20,12 @@ Fara yfir kóða og commenta meira svo kóðinn er þæginlegur fyrir aðra til 
 Næsta skref : 
 Time clock þarf að tengja við workhours í database.
 Gera logout button sem gerir windows skipun og drepur á tölvuni. 
+Database :
+Fylla ut lager og lagertype id.
+Stilla workhours
+Window :
+Bua til annan server fyrir utbu a odrum stad.
+tengja ta med vpn og lata seinni server fa allar grouppolicy fra main server.
 
 
 Samantekt : 
@@ -27,4 +33,5 @@ Github hjálpaði okkur mjög mikið að vinna saman þótt við vorum ekki allt
 Gekk bara vel að vinna sem hópur þótt við vorum í mismundi hlutum. 
 Held að vera saman í 50% af tímum hjálpar hópvinnu mjög mikið, til dæmis alltaf á mánudögum saman í timum.
 Svo hægt að ræða og plana verkefnið í byrjun á vikuni.
+Allir mjog happy med hverni folk vann saman og tilbuid ad hjalpa hvor odrum
 
